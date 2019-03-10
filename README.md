@@ -1,5 +1,5 @@
 ## Quera Python Test Parser
-A simple python script for parse sample tests of problems. [Quera](https://quera.ir) 
+A simple python script for parse sample tests of [Quera](https://quera.ir) problems.
 
 ### How to run
 1. Install `python` in your system.
