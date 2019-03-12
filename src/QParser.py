@@ -55,12 +55,10 @@ class QParser:
 
     def set_html_data(self):
 
-        if sys.version_info[0] > 2:
-
+        if PY_VER > 2:
             html_page = urllib2.request.urlopen(self.link)
 
         else:
-
             html_page = urlopen(self.link)
 
         self.soup = BeautifulSoup(html_page, 'html.parser')
